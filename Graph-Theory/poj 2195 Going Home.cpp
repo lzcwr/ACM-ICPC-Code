@@ -5,11 +5,14 @@
 using namespace std;
 
 #define showtime printf("time = %.15f\n", clock() / (double)CLOCKS_PER_SEC);
+#define root 1, n, 1
+
+#define showtime printf("time = %.15f\n", clock() / (double)CLOCKS_PER_SEC);
 #define lson l, m, rt  <<  1
 #define rson m + 1, r, rt  <<  1 | 1
 #define root 1, n, 1
 
-const int maxn = 305;
+const int maxn = 205;
 const int maxm = 1e5 + 5;
 const int mod = 10000;
 const double eps = 1e-8;
@@ -92,14 +95,41 @@ std::pair<int, int> min_Cost_max_Flow(int s, int t)
     return make_pair(cost, flow);
 }
 
+int dist(std::pair<int, int> a, std::pair<int, int> b)
+{
+    return (abs(a.first - b.first) + abs(a.second - b.second));
+}
+
+std::vector< std::pair<int, int> > man, house;
 int main()
 {
-    int m, n, k;
-    while(scanf("%d%d%d", &n, &m) != EOF)
+    int m, n;
+    while(scanf("%d%d", &n, &m) != EOF)
     {
-        if(n == 0 && n == 0 && k = 0) break;
-        int S = 0, T = m + n + 1;
-
+        if(n == 0 && n == 0) break;
+        man.clear(); house.clear();
+        char ch;
+        for(int i = 0; i < n; i++)
+        {
+            getchar();
+            for(int j = 0; j < m; j++)
+            {
+                ch = getchar();
+                if(ch == 'H') house.push_back(make_pair(i, j));
+                if(ch == 'm') man.push_back(make_pair(i, j));
+            }
+        }
+        int cntM = man.size(), cntH = house.size();
+        init(cntM + cntH + 2);
+        int S = cntM + cntH, T = cntM + cntH + 1;
+        for(int i = 0; i < cntM; i++)
+            addedge(S, i, 1, 0);
+        for(int i = 0; i < cntH; i++)
+            addedge(i + cntM, T, 1, 0);
+        for(int i = 0; i < cntM; i++)
+            for(int j = 0; j < cntH; j++)
+                addedge(i, j + cntM, 1, dist(man[i], house[j]));
+        printf("%d\n", min_Cost_max_Flow(S, T).first);
     }
 
     return 0;
