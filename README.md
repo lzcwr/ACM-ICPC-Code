@@ -1,10 +1,9 @@
 # ACM-ICPC-Code
 ACM-ICPC做题记录
 　
-## Codeforces ##
------------------
-Codeforce Round #XXX (Div.X) | Solved
----------------------------------------------
+## Codeforces
+Codeforces Round #XXX (Div.X) | Solved
+------------------------------|---------------
 codeforces Round #100 (Div.2) | A　B　C　D　_
 codeforces Round #105 (Div.2) | A　B　C　D　E
 codeforces Round #106 (Div.2) | A　B　C　_　_
