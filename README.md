@@ -1,7 +1,7 @@
 # ACM-ICPC-Code
 ACM-ICPC做题记录
 　
-## Codeforces
+## Codeforces Contests/Virtual Contests
 | Codeforces Round #XXX (Div.X) | Solved            |
 | ------------------------------|------------------ |
 | codeforces Round #100 (Div.2) | A　B　C　D　#     |
