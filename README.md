@@ -3,7 +3,7 @@ ACM-ICPC做题记录
 　
 ## Codeforces Contests/Virtual Contests
 | Codeforces Round #XXX (Div.X) | Solved            |
-| ------------------------------|------------------ |
+|:-----------------------------:|------------------ |
 | codeforces Round #100 (Div.2) | A　B　C　D　#     |
 | codeforces Round #105 (Div.2) | A　B　C　D　E     |
 | codeforces Round #106 (Div.2) | A　B　C　#　#     |
