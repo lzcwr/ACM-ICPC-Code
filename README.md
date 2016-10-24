@@ -18,6 +18,6 @@ ACM-ICPC做题记录
 | codeforces Round #106 (Div.2) | A　B　C　#　#     |
 | codeforces Round #126 (Div.2) | #　B　C　#　#     |
 | codeforces Round #224 (Div.2) | A　B　#　#　#     |
-| codeforces Round #365 (Div.2) | A　#　#　#　#     |
+| codeforces Round #365 (Div.2) | A　B　#　#　#     |
 | codeforces Round #366 (Div.2) | A　B　C　#　#     |
 | codeforces Round #369 (Div.2) | A　B　#　D　E     |
