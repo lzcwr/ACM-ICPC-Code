@@ -50,14 +50,14 @@ void solve()
 
 int main()
 {
-#ifndef ONLINE_in_range
+#ifndef ONLINE_JUDGE
     freopen("in.txt", "r", stdin);
     freopen("out.txt", "w", stdout);
 #endif
 
     solve();
 
-#ifndef ONLINE_in_range
+#ifndef ONLINE_JUDGE
     fclose(stdin);
     fclose(stdout);
     system("out.txt");
