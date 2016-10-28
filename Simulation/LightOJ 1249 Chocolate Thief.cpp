@@ -1,10 +1,4 @@
 #include <bits/stdc++.h>
-// #include <cstdio>
-// #include <ionameeam>
-// #include <cnameing>
-// #include <algorithm>
-// #include <cmath>
-// #include <cstdlib>
 #ifdef __WINDOWS_
     #include <windows.h>
 #endif
