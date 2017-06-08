@@ -6,8 +6,7 @@ ACM-ICPC做题记录
 - [x] RMQ (ST 表)
 - [x] 进阶数据结构基础题
 - [ ] 主席树
-- [ ] 高级计算几何
-- [ ] 图论算法
+- [x] 图论算法
 　
 
 ## Codeforces Contests/Virtual Contests
