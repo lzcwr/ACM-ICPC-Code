@@ -21,3 +21,4 @@ ACM-ICPC做题记录
 | codeforces Round #365 (Div.2) | A　B　C　#　#     |
 | codeforces Round #366 (Div.2) | A　B　C　#　#     |
 | codeforces Round #369 (Div.2) | A　B　#　D　E     |
+| codeforces Round #418 (Div.2) | A　B　C　#　#     |
